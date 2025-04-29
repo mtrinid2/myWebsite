@@ -1,0 +1,49 @@
+.about-me{
+    background-color: black;
+}
+.about-me-contents{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.profile-pic img{
+    width: 400px;
+    margin: 100px 0px;
+}
+.profile{
+    margin: 100px 100px;
+    color: white;
+}
+.profile h1{
+    font-size: 50px;
+}
+.profile p{
+    font-size: 20px;
+}
+.profile-contents{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 50px;
+    color: rgb(139, 45, 45);
+    cursor: pointer;
+}
+.raya .active{
+    border-bottom: 4px solid white;
+}
+.line .active{
+    border-bottom: 4px solid white;
+}
+@media(max-width:950px){
+    .about-me-contents{
+        display:block;
+        justify-items: center;
+    }
+    .profile-pic img{
+        margin: 50px 0px;
+    }
+    .profile{
+        margin: 0px 20px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,19 @@
+.footer {
+    background-color: black;
+    margin-top: 100px;
+  }
+  
+.footer-content {
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    border-top: 2px solid white; /* Red line */
+}
+/*
+@media(max-width:1000px){
+    .footer{
+        width: 100%;
+    }
+}*/

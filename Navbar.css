@@ -1,0 +1,77 @@
+.navbar{
+    background: url('/home.png') no-repeat center center/cover;
+    position:relative;
+    height: 80vh;
+}
+.navbar-contents{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title{
+    margin: 30px 00px;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+.title .select{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 222px;
+    bottom: 7px;
+}
+.title .red{
+    color: rgb(145, 31, 31);
+}
+.title .white{
+    color: white;
+}
+.navbar-contents h2{
+    margin: 0px 100px;
+    color: white;
+    cursor: pointer;
+}
+.about{
+    font-size: 50px;
+    color: white;
+    margin: 50px 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu-logo{
+    cursor: pointer;
+}
+.menu h2{
+    margin: 0px;
+}
+.menu-options{
+    display: none;
+    position: absolute;
+    top: 75px;
+    font-size: 20px;
+    background: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu:hover .menu-options{
+    display: block;
+    padding: 10px 10px;
+}
+.menu-options p{
+    color: white;
+}
+@media (max-width: 950px) {
+    .navbar-contents h2{
+        display: none;
+    }
+    .about h1{
+        font-size: 75px;
+    }
+    .menu-options p{
+        font-size: 17px;
+    }
+}

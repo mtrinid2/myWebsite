@@ -1,0 +1,83 @@
+.header{
+    background-color: black;
+    display: flex;
+}
+.header-options{
+    border-right: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 40px;
+}
+.header-options h2{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.description-box {
+    padding: 20px;
+    color: white;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 3s;
+}  
+.description-box h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.description-box p{
+    font-size: 20px;
+}
+.full-stack{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.full-stack-details{
+    padding: 0px 15px;
+    animation: fadeIn 3s;
+}
+.user-dev{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.user-dev-details{
+    padding: 0px 15px;
+    animation: fadeIn 3s;
+}
+.dot{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.info{
+    font-size: 20px;
+    padding: 15px;
+    animation: fadeIn 3s;
+}
+.social-media{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.position h2.active{
+    border-bottom: 4px solid rgb(139, 45, 45); 
+}
+.asd h2.active{
+    border-bottom: 4px solid rgb(139, 45, 45); 
+}
+@media(max-width:500px){
+    .header-options{
+        width: 25%;
+    }
+    .header-options h2{
+        font-size: 20px;
+    }
+    .description-box h3{
+        font-size: 28px;
+    }
+    .description-box p{
+        font-size: 17px;
+    }
+    .description-box li{
+        font-size: 17px;
+    }
+}
